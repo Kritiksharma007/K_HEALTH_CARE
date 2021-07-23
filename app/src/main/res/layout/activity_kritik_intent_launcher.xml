@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".kritik_intent_launcher"
+    android:background="@drawable/bckgrnd">
+
+  <TextView
+      android:id="@+id/t1"
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentTop="true"
+      android:layout_marginStart="0dp"
+      android:layout_marginLeft="0dp"
+      android:layout_marginTop="19dp"
+      android:gravity="center_horizontal"
+      android:text="Health Care"
+      android:textAlignment="center"
+      android:textSize="40dp" />
+
+  <ImageView
+      android:id="@+id/iv1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/t1"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="24dp"
+      android:src="@drawable/cv2" />
+
+  <Button
+      android:id="@+id/btn1"
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+      android:layout_below="@+id/iv1"
+      android:layout_marginTop="24dp"
+      android:text="COVID TRACKER"
+      android:background="@drawable/rounded_corner"/>
+
+  <ImageView
+      android:id="@+id/iv2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/btn1"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="25dp"
+      android:src="@drawable/contact" />
+
+  <Button
+      android:id="@+id/btn2"
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+      android:layout_below="@+id/iv2"
+      android:layout_marginTop="25dp"
+      android:text="HEALTHCARE CONNECT"
+      android:background="@drawable/rounded_corner"/>
+
+  <Button
+      android:id="@+id/btn3"
+      android:layout_width="140dp"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:text="Contact Us"
+      android:background="@drawable/rounded_corner"/>
+  <Button
+      android:layout_width="140dp"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:layout_alignParentRight="true"
+      android:text="EXIT"
+      android:background="@drawable/rounded_corner"/>
+  <Button
+      android:layout_width="140dp"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:layout_centerInParent="true"
+      android:text="NEWS"
+      android:background="@drawable/rounded_corner"/>
+</RelativeLayout>
