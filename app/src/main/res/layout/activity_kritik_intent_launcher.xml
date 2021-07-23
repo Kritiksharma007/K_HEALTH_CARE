@@ -57,27 +57,25 @@
       android:layout_below="@+id/iv2"
       android:layout_marginTop="25dp"
       android:text="HEALTHCARE CONNECT"
+      android:layout_marginBottom="25dp"
       android:background="@drawable/rounded_corner"/>
 
   <Button
+      android:layout_marginTop="20dp"
       android:id="@+id/btn3"
-      android:layout_width="140dp"
+      android:layout_width="210dp"
       android:layout_height="wrap_content"
       android:layout_alignParentBottom="true"
       android:text="Contact Us"
       android:background="@drawable/rounded_corner"/>
+
   <Button
-      android:layout_width="140dp"
+      android:layout_marginTop="20dp"
+      android:layout_width="210dp"
       android:layout_height="wrap_content"
       android:layout_alignParentBottom="true"
       android:layout_alignParentRight="true"
-      android:text="EXIT"
-      android:background="@drawable/rounded_corner"/>
-  <Button
-      android:layout_width="140dp"
-      android:layout_height="wrap_content"
-      android:layout_alignParentBottom="true"
-      android:layout_centerInParent="true"
       android:text="NEWS"
+      android:id="@+id/newsbtn"
       android:background="@drawable/rounded_corner"/>
 </RelativeLayout>

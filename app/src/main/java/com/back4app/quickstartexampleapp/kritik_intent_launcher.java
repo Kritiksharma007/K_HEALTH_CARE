@@ -9,21 +9,12 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 public class kritik_intent_launcher extends AppCompatActivity {
-    TextView t1;
-    Button btn1,btn2,btn3;
+    Button btn1,btn2,btn3,btnnews;
     ImageView iv1,iv2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_kritik_intent_launcher);
-        t1=findViewById(R.id.t1);
-        t1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent=new Intent(kritik_intent_launcher.this,Newapp1.class);
-                startActivity(intent);
-            }
-        });
         btn1=findViewById(R.id.btn1);
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -45,6 +36,14 @@ public class kritik_intent_launcher extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent=new Intent(kritik_intent_launcher.this,MainActivity.class);
+                startActivity(intent);
+            }
+        });
+        btnnews=findViewById(R.id.newsbtn);
+        btnnews.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(kritik_intent_launcher.this,news.class);
                 startActivity(intent);
             }
         });

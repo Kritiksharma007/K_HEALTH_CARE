@@ -20,7 +20,7 @@ tools:context="com.back4app.quickstartexampleapp.MainActivity">
         android:layout_marginBottom="9dp"
         android:paddingTop="15dp"
         android:paddingBottom="15dp"
-        android:src="@drawable/health2"></ImageView>
+        android:src="@mipmap/ic_launcher"></ImageView>
 
     <EditText
         android:id="@+id/editText"
